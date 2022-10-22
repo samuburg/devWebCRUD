@@ -24,6 +24,10 @@
             <li>Favoritos</li>
         </ul>
     </nav>
+    <div id="busca">
+        <button  class="btn btn-primary" id="buscar" type="button" name="buscar" onclick="" value="buscar">Buscar</button>
+        <input type="text"  class="form-control"  id="input-buscar" name="buscarInput">
+    </div>
     <section> <!-- tabela de contatos-->
         <table class="table lista-contatos">
             <thead>

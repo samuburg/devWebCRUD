@@ -2,6 +2,18 @@
     border: none;
 }
 
+#busca {
+    width: 1800px;
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+}
+
+#input_buscar {
+    width: 10px;
+    margin-right: 20px;
+}
+
 .lista-contatos tr{
     border: 1px solid black;
 }
