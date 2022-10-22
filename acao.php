@@ -4,11 +4,11 @@
 // echo '<pre>';
 // var_dump($_POST);
 // echo '</pre>';
-define('JSON','contatos.json');
+define('JSON','https://635451efccce2f8c02071d50.mockapi.io/api/v1/contatos'); //API mock, atividade 22/10/22
 
 function carregaDadosFormParaVetor(){
     $destino = '';
-    if (isset($_FILES['foto'])){
+    if (isset($_FILES['foto'])){    
         // define a pasta destino do arquivo feito upload
         $destino = 'imagens/'.$_FILES['foto']['name'];
         // move o arquivo para a pasta destino
